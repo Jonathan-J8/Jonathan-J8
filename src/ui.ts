@@ -17,9 +17,11 @@ const description = (o: Props) => `${o.description ? `<p>${o.description}</p>` :
 export const th = (o: Props) => {
 	return `
 <th>
-<a href="${o.url}" target="_blank">
+<a href="${o.url}" target="_blank" aria-label="${o.title}">
 ${img(o)}
+<p>${o.title}</p>
 </a>
+
 </th>
 `.trim();
 };
