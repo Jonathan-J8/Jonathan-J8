@@ -16,8 +16,8 @@ export const th = (o: Props) => {
 <th>
 	<a href="${o.url}" target="_blank" aria-label="${o.title}">
 		${img(o)}
-		${o.title.toLocaleLowerCase()}
 	</a>
+	${o.title.toLocaleLowerCase()}
 </th>
 `.trim();
 };
