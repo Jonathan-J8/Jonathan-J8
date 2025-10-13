@@ -1,21 +1,38 @@
 import fs from 'node:fs';
 import datas from './datas.json' with { type: 'json' };
-import getOGData from './getOGData.js';
+import * as media from './media.js';
+import * as og from './og.js';
 import * as ui from './ui.js';
 
 (async () => {
-	let str = '<tr>';
+	media.cleanDir();
+
 	let inc = 1;
+	let str = '<tr>';
+
 	for await (const data of datas) {
-		const og = await getOGData(data.url);
-		const props = { ...og, ...data }; // Merge OG data with original data
+		// Get OG metadatas
+		const ogDatas = await og.fetchDatas(data.url);
+		const props = { ...ogDatas, ...data };
+
+		// Download video and convert to gif if video exists
+		let filepath = '';
+		if (props.video) {
+			filepath = await media.downloadMp4(props.video);
+			await media.convertMp4ToGif(filepath);
+			props.image = filepath.replace('.mp4', '.gif');
+		}
+
+		// Append contents
 		str += ui.th(props);
 		if (inc % 3 === 0) str += '</tr><tr>';
 		++inc;
 	}
-	str += '</tr>';
 
+	str += '</tr>';
 	str = ui.table(str);
+
+	// Update README.md between <!-- OG_START --> and <!-- OG_END -->
 	str = `
 <!-- OG_START -->
 ${str}

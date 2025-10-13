@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-async function getOGData(url: string) {
+export const fetchDatas = async (url: string) => {
 	const html = await fetch(url).then((r) => r.text());
 	const dom = new JSDOM(html);
 	const doc = dom.window.document;
@@ -14,5 +14,4 @@ async function getOGData(url: string) {
 		image: get('og:image'),
 		video: get('og:video'),
 	};
-}
-export default getOGData;
+};

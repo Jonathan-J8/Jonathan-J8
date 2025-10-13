@@ -16,12 +16,12 @@
 	<thead>
 		<tr><th>
 	<a href="https://joeat.xyz" target="_blank" aria-label="joeat.xyz">
-		<img src="https://joeat.xyz/images/joeat_banner.png" alt="joeat.xyz" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/f7171ee736e46036ded69afdb552302d.gif" alt="joeat.xyz" width="300px" height="auto" style="max-width: 300px;" />
 		joeat.xyz
 	</a>
 </th><th>
 	<a href="https://jonathan-j8.github.io/sketch-sunlines/" target="_blank" aria-label="Sunlines">
-		<img src="https://jonathan-j8.github.io/sketch-sunlines/banner.png" alt="Sunlines" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/8e56d1b7b29f756c32ddfe8de07df37e.gif" alt="Sunlines" width="300px" height="auto" style="max-width: 300px;" />
 		sunlines
 	</a>
 </th><th>
@@ -31,12 +31,12 @@
 	</a>
 </th></tr><tr><th>
 	<a href="https://jonathan-j8.github.io/play-creative/" target="_blank" aria-label="Play creative">
-		<img src="https://jonathan-j8.github.io/play-creative/banner.png" alt="Play creative" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/acfc038e4f34f489950a423daaea622f.gif" alt="Play creative" width="300px" height="auto" style="max-width: 300px;" />
 		play creative
 	</a>
 </th><th>
 	<a href="https://jonathan-j8.github.io/windforlife/" target="_blank" aria-label="Windforlife">
-		<img src="https://jonathan-j8.github.io/windforlife/banner.png" alt="Windforlife" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/f7a741bc8d0096b77bdaea8cc5f1d969.gif" alt="Windforlife" width="300px" height="auto" style="max-width: 300px;" />
 		windforlife
 	</a>
 </th></tr>

@@ -1,17 +1,15 @@
 import datas from './datas.json' with { type: 'json' };
-import getOGData from './getOGData.js';
+import type { fetchDatas } from './og.js';
 
-type Props = Awaited<ReturnType<typeof getOGData>> & (typeof datas)[number];
+type Props = Awaited<ReturnType<typeof fetchDatas>> & (typeof datas)[number];
+
+// const repo = (o: Props) => o.repository ? `<a href="${o.repository}" target="_blank" style="display: block;">repo</a>` : '';
+// const description = (o: Props) => `${o.description ? `<p>${o.description}</p>` : ''}`;
 
 const img = (o: Props) =>
 	o.image
 		? `<img src="${o.image}" alt="${o.title}" width="300px" height="auto" style="max-width: 300px;" />`
 		: '';
-
-const repo = (o: Props) =>
-	o.repository ? `<a href="${o.repository}" target="_blank" style="display: block;">repo</a>` : '';
-
-const description = (o: Props) => `${o.description ? `<p>${o.description}</p>` : ''}`;
 
 export const th = (o: Props) => {
 	return `
