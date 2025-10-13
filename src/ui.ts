@@ -11,6 +11,8 @@ const media = (o: Props) => {
 
 	return o.video ? video : img;
 };
+const img = (o: Props) =>
+	o.image ? `<img src="${o.image}" alt="${o.title}" style="width: 100%;" />` : '';
 
 const repo = (o: Props) =>
 	o.repository ? `<a href="${o.repository}" target="_blank" style="display: block;">repo</a>` : '';
@@ -23,7 +25,7 @@ export const item = (o: Props) => {
 
 <li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <a href="${o.url}" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
-${media(o)}
+${img(o)}
 ${o.title}
 </a>
 
