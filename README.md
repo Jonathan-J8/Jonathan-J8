@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jonathan
 
-> Creative Developer & Full-Stack JS Engineer
+**_Creative Developer & Full-Stack JS Engineer_**
 
 🎨 Crafting web-apps & experiences with Three.js · WebGL · GLSL
 
