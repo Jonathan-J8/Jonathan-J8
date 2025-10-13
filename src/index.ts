@@ -5,13 +5,16 @@ import * as ui from './ui.js';
 
 (async () => {
 	let str = '';
+	let inc = 1;
 	for await (const data of datas) {
 		const og = await getOGData(data.url);
 		const props = { ...og, ...data }; // Merge OG data with original data
-		str += ui.item(props);
+		str += ui.th(props);
+		if (inc % 3 === 0) str = ui.tr(str);
+		++inc;
 	}
 
-	str = ui.container(str);
+	str = ui.table(str);
 
 	const readme = fs.readFileSync('README.md', 'utf-8');
 
