@@ -12,7 +12,7 @@ const media = (o: Props) => {
 	return o.video ? video : img;
 };
 const img = (o: Props) =>
-	o.image ? `<img src="${o.image}" alt="${o.title}" style="width: 100%;" />` : '';
+	o.image ? `<img src="${o.image}" alt="${o.title}" style="width: 33%;" />` : '';
 
 const repo = (o: Props) =>
 	o.repository ? `<a href="${o.repository}" target="_blank" style="display: block;">repo</a>` : '';
