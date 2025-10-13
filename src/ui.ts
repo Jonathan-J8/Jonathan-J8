@@ -13,36 +13,23 @@ const repo = (o: Props) =>
 
 const description = (o: Props) => `${o.description ? `<p>${o.description}</p>` : ''}`;
 
-// <p>${o.title.toUpperCase()}</p>
 export const th = (o: Props) => {
 	return `
 <th>
-<a href="${o.url}" target="_blank" aria-label="${o.title}">
-${img(o)}
-<p>${o.title}</p>
-</a>
-
+	<a href="${o.url}" target="_blank" aria-label="${o.title}">
+		${img(o)}
+		${o.title.toLocaleLowerCase()}
+	</a>
 </th>
 `.trim();
 };
 
-export const tr = (str: string) => {
-	const ui = `
-<tr>
-${str}
-</tr>
-`.trim();
-
-	return ui;
-};
 export const table = (str: string) => {
 	const ui = `
 <table>
-<thead>
-<tr>
-${str}
-</tr>
-</thead>
+	<thead>
+		${str}
+	</thead>
 </table>
 `.trim();
 
