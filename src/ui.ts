@@ -3,8 +3,12 @@ import type { fetchDatas } from './og.js';
 
 type Props = Awaited<ReturnType<typeof fetchDatas>> & (typeof datas)[number];
 
-// const repo = (o: Props) => o.repository ? `<a href="${o.repository}" target="_blank" style="display: block;">repo</a>` : '';
 // const description = (o: Props) => `${o.description ? `<p>${o.description}</p>` : ''}`;
+
+const repo = (o: Props) =>
+	o.repository
+		? `<a href="${o.repository}" aria-label="${o.title} repository" target="_blank">repo</a>`
+		: '_';
 
 const img = (o: Props) =>
 	o.image
@@ -16,8 +20,9 @@ export const th = (o: Props) => {
 <th>
 	<a href="${o.url}" target="_blank" aria-label="${o.title}">
 		${img(o)}
-	</a>\n
-	${o.title.toLocaleLowerCase()}
+	</a>
+	\n<a href="${o.url}" target="_blank" aria-label="${o.title}">${o.title.toLocaleLowerCase()}</a>
+	\n${repo(o)}
 </th>
 `.trim();
 };
