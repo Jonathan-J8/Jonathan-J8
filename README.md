@@ -19,45 +19,46 @@
 <img src="https://joeat.xyz/images/joeat_banner.png" alt="joeat.xyz" style="width: 33%;" />
 joeat.xyz
 </a>
+Jonathan Attar's Portfolio - Creative developer
 
-<br/>Jonathan Attar's Portfolio - Creative developer
-
+<br/>
+<br/>
 </li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <a href="https://jonathan-j8.github.io/sketch-sunlines/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
 <img src="https://jonathan-j8.github.io/sketch-sunlines/banner.png" alt="Sunlines" style="width: 33%;" />
 Sunlines
 </a>
-
-<br/>Sunlines - An interactive Three.js WebGL sketch featuring animated vertical lines with custom shaders, procedural sky effects, and scroll-based interactions.
+Sunlines - An interactive Three.js WebGL sketch featuring animated vertical lines with custom shaders, procedural sky effects, and scroll-based interactions.
 <a href="https://github.com/jonathan-j8/sketch-sunlines" target="_blank" style="display: block;">repo</a>
-
+<br/>
+<br/>
 </li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <a href="https://jonathan-j8.github.io/threejs-svg-parser/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
 <img src="https://jonathan-j8.github.io/threejs-svg-parser/banner.png" alt="SVG parser" style="width: 33%;" />
 SVG parser
 </a>
-
-<br/>Spotting edge-cases for big SVG file to parse and render with threejs
+Spotting edge-cases for big SVG file to parse and render with threejs
 <a href="https://github.com/jonathan-j8/threejs-svg-parser" target="_blank" style="display: block;">repo</a>
-
+<br/>
+<br/>
 </li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <a href="https://jonathan-j8.github.io/play-creative/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
 <img src="https://jonathan-j8.github.io/play-creative/banner.png" alt="Play creative" style="width: 33%;" />
 Play creative
 </a>
-
-<br/>Experimentation with PixiJS, Animejs and Vue
+Experimentation with PixiJS, Animejs and Vue
 <a href="https://github.com/jonathan-j8/play-creative" target="_blank" style="display: block;">repo</a>
-
+<br/>
+<br/>
 </li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <a href="https://jonathan-j8.github.io/windforlife/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
 <img src="https://jonathan-j8.github.io/windforlife/banner.png" alt="Windforlife" style="width: 33%;" />
 Windforlife
 </a>
-
-<br/>Anemometers map and details made with React & leaflet
+Anemometers map and details made with React & leaflet
 <a href="https://github.com/jonathan-j8/windforlife" target="_blank" style="display: block;">repo</a>
-
+<br/>
+<br/>
 </li>
 
 </ul>

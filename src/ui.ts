@@ -17,7 +17,7 @@ const img = (o: Props) =>
 const repo = (o: Props) =>
 	o.repository ? `<a href="${o.repository}" target="_blank" style="display: block;">repo</a>` : '';
 
-const description = (o: Props) => `<br/>${o.description ? `${o.description}` : ''}`;
+const description = (o: Props) => `${o.description ? `${o.description}` : ''}`;
 
 export const item = (o: Props) => {
 	const m = media(o);
@@ -28,11 +28,11 @@ export const item = (o: Props) => {
 ${img(o)}
 ${o.title}
 </a>
-
 ${description(o)}
 ${repo(o)}
+<br/>
+<br/>
 </li>
-
 `.trim();
 };
 
