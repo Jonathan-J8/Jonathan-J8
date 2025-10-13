@@ -8,7 +8,7 @@ type Props = Awaited<ReturnType<typeof fetchDatas>> & (typeof datas)[number];
 const repo = (o: Props) =>
 	o.repository
 		? `<a href="${o.repository}" aria-label="${o.title} repository" target="_blank">repo</a>`
-		: '_';
+		: '...';
 
 const img = (o: Props) =>
 	o.image
@@ -21,8 +21,7 @@ export const th = (o: Props) => {
 	<a href="${o.url}" target="_blank" aria-label="${o.title}">
 		${img(o)}
 	</a>
-	\n<a href="${o.url}" target="_blank" aria-label="${o.title}">${o.title.toLocaleLowerCase()}</a>
-	\n${repo(o)}
+	\n<a href="${o.url}" target="_blank" aria-label="${o.title}">website</a> | ${repo(o)}
 </th>
 `.trim();
 };
