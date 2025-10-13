@@ -1,0 +1,64 @@
+# 👋 Hi, I'm Jonathan
+
+> Creative Developer & Full-Stack JS Engineer
+
+🎨 Crafting web-apps & experiences with Three.js · WebGL · GLSL
+
+💻 Stack: TypeScript · React · Svelte · Vue · Next.js · Node.js · Tailwind · etc...
+<br>
+<br>
+
+---
+
+<br>
+<!-- OG_START -->
+<ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start;">
+
+<li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<a href="https://joeat.xyz" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
+<video src="https://joeat.xyz/videos/joeat_presentation.mp4" autoplay muted loop playsinline style="width: 100%;"></video>
+joeat.xyz
+</a>
+
+<br/>Jonathan Attar's Portfolio - Creative developer
+
+</li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<a href="https://jonathan-j8.github.io/sketch-sunlines/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
+<video src="https://jonathan-j8.github.io/sketch-sunlines/showcase.mp4" autoplay muted loop playsinline style="width: 100%;"></video>
+Sunlines
+</a>
+
+<br/>Sunlines - An interactive Three.js WebGL sketch featuring animated vertical lines with custom shaders, procedural sky effects, and scroll-based interactions.
+<a href="https://github.com/jonathan-j8/sketch-sunlines" target="_blank" style="display: block;">repo</a>
+
+</li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<a href="https://jonathan-j8.github.io/threejs-svg-parser/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
+<img src="https://jonathan-j8.github.io/threejs-svg-parser/banner.png" alt="SVG parser" style="width: 100%;" />
+SVG parser
+</a>
+
+<br/>Spotting edge-cases for big SVG file to parse and render with threejs
+<a href="https://github.com/jonathan-j8/threejs-svg-parser" target="_blank" style="display: block;">repo</a>
+
+</li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<a href="https://jonathan-j8.github.io/play-creative/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
+<video src="https://jonathan-j8.github.io/play-creative/showcase.mp4" autoplay muted loop playsinline style="width: 100%;"></video>
+Play creative
+</a>
+
+<br/>Experimentation with PixiJS, Animejs and Vue
+<a href="https://github.com/jonathan-j8/play-creative" target="_blank" style="display: block;">repo</a>
+
+</li><li style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 16px; min-width: 200px; max-width:25%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<a href="https://jonathan-j8.github.io/windforlife/" target="_blank" style="text-transform:uppercase; font-weight: bold; ">
+<video src="https://jonathan-j8.github.io/windforlife/showcase.mp4" autoplay muted loop playsinline style="width: 100%;"></video>
+Windforlife
+</a>
+
+<br/>Anemometers map and details made with React & leaflet
+<a href="https://github.com/jonathan-j8/windforlife" target="_blank" style="display: block;">repo</a>
+
+</li>
+
+</ul>
+<!-- OG_END -->
