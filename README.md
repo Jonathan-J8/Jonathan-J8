@@ -16,29 +16,39 @@
 	<thead>
 		<tr><th>
 	<a href="https://joeat.xyz" target="_blank" aria-label="joeat.xyz">
-		<img src="./static/9cde5d204c57cc1127a31f383dfd431f.gif" alt="joeat.xyz" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/35a1e9bb8b677b0cc4034e8beaca7865.gif" alt="joeat.xyz" width="300px" height="auto" style="max-width: 300px;" />
 	</a>
-	joeat.xyz
+
+    joeat.xyz
+
 </th><th>
 	<a href="https://jonathan-j8.github.io/sketch-sunlines/" target="_blank" aria-label="Sunlines">
-		<img src="./static/b7c8d73a2753d34b70722e10ad972ecf.gif" alt="Sunlines" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/76ad074e2faecaa7dd1c73ab5eaeb8b6.gif" alt="Sunlines" width="300px" height="auto" style="max-width: 300px;" />
 	</a>
-	sunlines
+
+    sunlines
+
 </th></tr><tr><th>
 	<a href="https://jonathan-j8.github.io/threejs-svg-parser/" target="_blank" aria-label="SVG parser">
 		<img src="https://jonathan-j8.github.io/threejs-svg-parser/banner.png" alt="SVG parser" width="300px" height="auto" style="max-width: 300px;" />
 	</a>
-	svg parser
+
+    svg parser
+
 </th><th>
 	<a href="https://jonathan-j8.github.io/play-creative/" target="_blank" aria-label="Play creative">
-		<img src="./static/af0325e8699f0ba2df4950712a726279.gif" alt="Play creative" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/6b99e12910c8acb26b49979ec5d16e20.gif" alt="Play creative" width="300px" height="auto" style="max-width: 300px;" />
 	</a>
-	play creative
+
+    play creative
+
 </th></tr><tr><th>
 	<a href="https://jonathan-j8.github.io/windforlife/" target="_blank" aria-label="Windforlife">
-		<img src="./static/22a4a8af9bad08c0526ccdaac74c24cf.gif" alt="Windforlife" width="300px" height="auto" style="max-width: 300px;" />
+		<img src="./static/6d1cfa914cdaedbdf46ccc422bd56994.gif" alt="Windforlife" width="300px" height="auto" style="max-width: 300px;" />
 	</a>
-	windforlife
+
+    windforlife
+
 </th></tr>
 	</thead>
 </table>
