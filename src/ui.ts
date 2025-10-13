@@ -5,7 +5,7 @@ type Props = Awaited<ReturnType<typeof getOGData>> & (typeof datas)[number];
 
 const img = (o: Props) =>
 	o.image
-		? `<img src="${o.image}" alt="${o.title}" width="100%" height="auto" style="max-width: 300px;" />`
+		? `<img src="${o.image}" alt="${o.title}" width="300px" height="auto" style="max-width: 300px;" />`
 		: '';
 
 const repo = (o: Props) =>
