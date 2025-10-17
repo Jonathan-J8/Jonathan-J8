@@ -14,12 +14,11 @@ const repo = (o: Props) =>
 		: '...';
 
 const img = (o: Props) =>
-	o.image ? `<img src="${o.image}" alt="${o.title}" width="220px" height="auto" />` : '';
+	o.image ? `<img src="${o.image}" alt="${o.title}" width="100%" height="auto" />` : '';
 
 export const th = (o: Props) => {
 	return `
 <th>
-<br/>	
 <a href="${o.url || o.repository}" target="_blank" aria-label="${o.title}">
 		${img(o)}
 	</a>

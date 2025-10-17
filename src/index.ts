@@ -14,18 +14,24 @@ import * as ui from './ui.js';
 		const ogDatas = await og.fetchDatas(data.url);
 		const props = { ...ogDatas, ...data };
 
-		// Download video and convert to gif if video exists
+		// Download video/gif/image and convert/scale/crop to gif
 		let filepath = '';
-		if (props.image && props.image.endsWith('.gif')) {
-			filepath = await media.download({ url: props.image, ext: 'gif' });
-			filepath = await media.scaleGif(filepath);
+		if (props.image.endsWith('.gif')) {
+			// GIF
+			filepath = await media.download(props.image);
+			filepath = await media.scaleImg(filepath);
 			props.image = filepath;
-		} else if (props.video && props.video.endsWith('.mp4')) {
-			filepath = await media.download({ url: props.video, ext: 'mp4' });
-			await media.convertMp4ToGif(filepath);
-			props.image = filepath.replace('.mp4', '.gif');
-		} else console.warn('No media/video to download for', props.url);
-
+		} else if (props.video) {
+			// Video to GIF
+			filepath = await media.download(props.video);
+			filepath = await media.convertToGif(filepath);
+			props.image = filepath;
+		} else {
+			// Any Image
+			filepath = await media.download(props.image);
+			filepath = await media.scaleImg(filepath);
+			props.image = filepath;
+		}
 		// Append contents
 		str += ui.th(props);
 		if (inc % 3 === 0 && inc !== datas.length) str += '</tr><tr>';
