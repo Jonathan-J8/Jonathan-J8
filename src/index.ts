@@ -6,7 +6,6 @@ import * as ui from './ui.js';
 
 (async () => {
 	media.cleanDir();
-
 	let inc = 1;
 	let str = '<tr>';
 
@@ -17,22 +16,26 @@ import * as ui from './ui.js';
 
 		// Download video and convert to gif if video exists
 		let filepath = '';
-		if (props.video) {
-			filepath = await media.downloadMp4(props.video);
+		if (props.image && props.image.endsWith('.gif')) {
+			filepath = await media.download({ url: props.image, ext: 'gif' });
+			filepath = await media.scaleGif(filepath);
+			props.image = filepath;
+		} else if (props.video && props.video.endsWith('.mp4')) {
+			filepath = await media.download({ url: props.video, ext: 'mp4' });
 			await media.convertMp4ToGif(filepath);
 			props.image = filepath.replace('.mp4', '.gif');
-		}
+		} else console.warn('No media/video to download for', props.url);
 
 		// Append contents
 		str += ui.th(props);
-		if (inc % 2 === 0) str += '</tr><tr>';
+		if (inc % 3 === 0) str += '</tr><tr>';
 		++inc;
 	}
 
 	str += '</tr>';
 	str = ui.table(str);
 
-	// Update README.md between <!-- OG_START --> and <!-- OG_END -->
+	// Update README.md
 	str = `
 <!-- OG_START -->
 ${str}

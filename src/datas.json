@@ -18,5 +18,9 @@
 	{
 		"url": "https://jonathan-j8.github.io/windforlife/",
 		"repository": "https://github.com/jonathan-j8/windforlife"
+	},
+	{
+		"url": "https://jonathan-j8.github.io/optical-flow/",
+		"repository": "https://github.com/Jonathan-J8/optical-flow.git"
 	}
 ]
