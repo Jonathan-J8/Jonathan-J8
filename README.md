@@ -1,13 +1,12 @@
 # 👋 Hi, I'm Jonathan
 
-**_Creative Developer & Full-Stack JS Engineer_**
-
-🎨 Crafting web-apps & experiences with Three.js · WebGL · GLSL
-
-💻 Stack: TypeScript · React · Svelte · Vue · Next.js · Node.js · Tailwind · etc...
-
-🌐 [joeat.xyz](https://joeat.xyz)
 <br>
+
+**_Creative Developer & Full-Stack JS Engineer_**\
+🎨 Crafting web-apps & experiences with Three.js · WebGL · GLSL\
+💻 Stack: TypeScript · React · Svelte · Vue · Next.js · Node.js · Tailwind · etc...\
+🌐 [joeat.xyz](https://joeat.xyz)
+
 <br>
 <br>
 
