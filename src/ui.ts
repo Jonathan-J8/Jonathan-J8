@@ -14,9 +14,7 @@ const repo = (o: Props) =>
 		: '...';
 
 const img = (o: Props) =>
-	o.image
-		? `<img src="${o.image}" alt="${o.title}" width="100%" height="auto" style="max-width: 200px;" />`
-		: '';
+	o.image ? `<img src="${o.image}" alt="${o.title}" width="220px" height="auto" />` : '';
 
 export const th = (o: Props) => {
 	return `
