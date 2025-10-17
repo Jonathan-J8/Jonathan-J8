@@ -19,7 +19,8 @@ const img = (o: Props) =>
 export const th = (o: Props) => {
 	return `
 <th>
-	<a href="${o.url || o.repository}" target="_blank" aria-label="${o.title}">
+<br/>	
+<a href="${o.url || o.repository}" target="_blank" aria-label="${o.title}">
 		${img(o)}
 	</a>
 	\n${link(o)} | ${repo(o)}
