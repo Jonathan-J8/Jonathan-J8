@@ -28,7 +28,8 @@ import * as ui from './ui.js';
 
 		// Append contents
 		str += ui.th(props);
-		if (inc % 3 === 0) str += '</tr><tr>';
+		if (inc % 3 === 0 && inc !== datas.length) str += '</tr><tr>';
+
 		++inc;
 	}
 

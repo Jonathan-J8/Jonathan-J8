@@ -40,9 +40,6 @@ export const scaleGif = async (filepath: string) => {
 					console.error(`Error: ${error.message}`);
 					reject(error);
 				}
-				console.log('FFmpeg finished!');
-				console.log('stdout:', stdout);
-				console.log('stderr:', stderr);
 				resolve(newFilepath);
 			},
 		);
