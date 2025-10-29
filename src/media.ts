@@ -30,6 +30,11 @@ export const download = async (url: string) => {
 	return filepath;
 };
 
+/**
+ * Scales and crops an image to fit within the specified WIDTH and HEIGHT while maintaining aspect ratio.
+ * Those fmmpeg commands only work for media of 16:(>=9) aspect ratio.
+ */
+
 export const scaleImg = async (filepath: string) => {
 	const ext = extname(filepath);
 	const filename = basename(filepath, ext).replace(/.$/, '');
