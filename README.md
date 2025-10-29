@@ -2,10 +2,10 @@
 
 <br>
 
-**_Creative Developer & Full-Stack JS Engineer_**\
+💗 **Creative Developer & Full-Stack JS Engineer**\
 🎨 Crafting web-apps & experiences with Three.js · WebGL · GLSL\
 💻 Stack: TypeScript · React · Svelte · Vue · Next.js · Node.js · Tailwind · etc...\
-🌐 [joeat.xyz](https://joeat.xyz)
+👋 [joeat.xyz](https://joeat.xyz)
 
 <br>
 <br>
