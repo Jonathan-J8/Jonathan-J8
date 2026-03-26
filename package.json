@@ -11,7 +11,10 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
 	},
-	"author": "",
+	"author": {
+		"name": "Jonathan A.",
+		"url": "https://joeat.xyz"
+	},
 	"license": "ISC",
 	"dependencies": {
 		"jsdom": "^27.0.0"
