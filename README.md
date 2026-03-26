@@ -15,46 +15,46 @@
 <thead>
 		<tr><th>
 <a href="https://joeat.xyz" target="_blank" aria-label="joeat.xyz">
-		<img src="./static/7d3b7a129dc8ab535afb6021732e1b2.gif" alt="joeat.xyz" width="100%" height="auto" />
+		<img src="./static/d5c72db2f765760777211deed14287a.gif" alt="joeat.xyz" width="100%" height="auto" />
 	</a>
 	
-<a href="https://joeat.xyz" aria-label="joeat.xyz website" target="_blank">website</a> | ...
+<a href="https://joeat.xyz" aria-label="joeat.xyz website" target="_blank">portfolio</a>  
 </th><th>
 <a href="https://jonathan-j8.github.io/sketch-sunlines/" target="_blank" aria-label="Sunlines">
-		<img src="./static/ac09f514783a2257bbdfb60b1d74f65.gif" alt="Sunlines" width="100%" height="auto" />
+		<img src="./static/013d791bdc30397dc51f3ddf554bc28.gif" alt="Sunlines" width="100%" height="auto" />
 	</a>
 	
-<a href="https://jonathan-j8.github.io/sketch-sunlines/" aria-label="Sunlines website" target="_blank">website</a> | <a href="https://github.com/jonathan-j8/sketch-sunlines" aria-label="Sunlines repository" target="_blank">repo</a>
+<a href="https://jonathan-j8.github.io/sketch-sunlines/" aria-label="Sunlines website" target="_blank">sketch</a> | <a href="https://github.com/jonathan-j8/sketch-sunlines" aria-label="Sunlines repository" target="_blank">repo.</a>
 </th><th>
 <a href="https://jonathan-j8.github.io/ilico.org/" target="_blank" aria-label="ilico">
-		<img src="./static/7b3e3053645a5254ddfd8402876b2cd.gif" alt="ilico" width="100%" height="auto" />
+		<img src="./static/9fe79ac588cfc36ce421ebbfc2c8eea.gif" alt="ilico" width="100%" height="auto" />
 	</a>
 	
-<a href="https://jonathan-j8.github.io/ilico.org/" aria-label="ilico website" target="_blank">website</a> | <a href="https://github.com/jonathan-j8/ilico.org" aria-label="ilico repository" target="_blank">repo</a>
+<a href="https://jonathan-j8.github.io/ilico.org/" aria-label="ilico website" target="_blank">website</a> | <a href="https://github.com/jonathan-j8/ilico.org" aria-label="ilico repository" target="_blank">repo.</a>
 </th></tr><tr><th>
 <a href="https://jonathan-j8.github.io/optical-flow/" target="_blank" aria-label="Optical flow">
-		<img src="./static/49f6a6e5c725fa3a1e492c8d1635eb1-scaled.gif" alt="Optical flow" width="100%" height="auto" />
+		<img src="./static/fc515ff02bcbf9ec5faff266e477abe-scaled.gif" alt="Optical flow" width="100%" height="auto" />
 	</a>
 	
-<a href="https://jonathan-j8.github.io/optical-flow/" aria-label="Optical flow website" target="_blank">website</a> | <a href="https://github.com/Jonathan-J8/optical-flow.git" aria-label="Optical flow repository" target="_blank">repo</a>
+<a href="https://jonathan-j8.github.io/optical-flow/" aria-label="Optical flow website" target="_blank">sketch</a> | <a href="https://github.com/Jonathan-J8/optical-flow.git" aria-label="Optical flow repository" target="_blank">repo.</a>
 </th><th>
 <a href="https://jonathan-j8.github.io/windforlife/" target="_blank" aria-label="Windforlife">
-		<img src="./static/e32572a8969ed8165ea31dfa56fca2a.gif" alt="Windforlife" width="100%" height="auto" />
+		<img src="./static/aa51d5bef14b5192b9e60dc0d340097.gif" alt="Windforlife" width="100%" height="auto" />
 	</a>
 	
-<a href="https://jonathan-j8.github.io/windforlife/" aria-label="Windforlife website" target="_blank">website</a> | <a href="https://github.com/jonathan-j8/windforlife" aria-label="Windforlife repository" target="_blank">repo</a>
+<a href="https://jonathan-j8.github.io/windforlife/" aria-label="Windforlife website" target="_blank">demo</a> | <a href="https://github.com/jonathan-j8/windforlife" aria-label="Windforlife repository" target="_blank">repo.</a>
 </th><th>
 <a href="https://jonathan-j8.github.io/threejs-svg-parser/" target="_blank" aria-label="SVG parser">
-		<img src="./static/b1904b62ea3d7e4acc1414c7d613ecf-scaled.png" alt="SVG parser" width="100%" height="auto" />
+		<img src="./static/b051e4f2c21524aed77d5be88dc8a00-scaled.png" alt="SVG parser" width="100%" height="auto" />
 	</a>
 	
-<a href="https://jonathan-j8.github.io/threejs-svg-parser/" aria-label="SVG parser website" target="_blank">website</a> | <a href="https://github.com/jonathan-j8/threejs-svg-parser" aria-label="SVG parser repository" target="_blank">repo</a>
+<a href="https://jonathan-j8.github.io/threejs-svg-parser/" aria-label="SVG parser website" target="_blank">demo</a> | <a href="https://github.com/jonathan-j8/threejs-svg-parser" aria-label="SVG parser repository" target="_blank">repo.</a>
 </th></tr><tr><th>
 <a href="https://jonathan-j8.github.io/play-creative/" target="_blank" aria-label="Play creative">
-		<img src="./static/087130eba4cfa6b7f3c490955dee920.gif" alt="Play creative" width="100%" height="auto" />
+		<img src="./static/d98970b43e7a61fd50517021673c0a0.gif" alt="Play creative" width="100%" height="auto" />
 	</a>
 	
-<a href="https://jonathan-j8.github.io/play-creative/" aria-label="Play creative website" target="_blank">website</a> | <a href="https://github.com/jonathan-j8/play-creative" aria-label="Play creative repository" target="_blank">repo</a>
+<a href="https://jonathan-j8.github.io/play-creative/" aria-label="Play creative website" target="_blank">demo</a> | <a href="https://github.com/jonathan-j8/play-creative" aria-label="Play creative repository" target="_blank">repo.</a>
 </th></tr>
 </thead>
 </table>
